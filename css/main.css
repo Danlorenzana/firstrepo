@@ -159,3 +159,103 @@ a.button:hover {
     letter-spacing: 0.1px; /*tracking*/
     font-size: 14px;
 }
+@media (max-width: 700px) {
+	.main input {
+		width: 80%;
+	}
+}
+@media (max-width: 525px) {
+	.main input {
+		width: 70%;
+	}
+	.profile {
+		border-radius: 25px;
+		height: 60px;
+	    width: 60px; /* height and width of image box */ 
+	    position: relative; /* relative to the container/block */
+	    top: 19px;
+	}
+	.NavBar .plus { 
+		display: none;
+
+	 }
+	.bottomNav ul {
+		
+		float: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+
+	}
+	.bottomNav ul li {
+		margin: 0 10px;
+		padding: 0 20px;
+		
+		
+	}
+	.bottomNav ul li a {
+		padding: 0 ;
+		margin: 0;
+	}
+	.share {
+		display: none;
+	}
+	.rightNav li a:first-child { /*first child affects all 3 anchors within this list */
+		padding-left: 5px;
+	}
+	.leftNav li:nth-child(2) {
+		margin-left:0px;
+
+	}
+	.leftNav li:nth-child(3) {
+		padding-right: 42px;
+	}
+	.main .lucky {
+		display: none;
+	}
+	.main .searchbutton {
+		padding: 3px 35px;
+		margin-top: 35px
+	}
+	.main img {
+		width: 45%;
+
+	}
+}
+@media (max-width: 323px) {
+	.NavBar {
+		background-color: ;
+	}
+	.NavBar .fa-bell-o {
+		display: none;
+	}
+	.bottomNav ul li {
+		margin: 0 ;
+		padding: 0 ;
+		
+	}
+	.bottomNav ul {
+		padding: 0;
+		margin: 0;
+	}
+	.leftNav {
+	float:none;
+	}
+	.rightNav {
+	float: inherit;
+	}
+}
+@media (max-width: 310px) {
+	.NavBar .fa-th {
+		display: none;
+	}
+	.NavBar {
+	float:right;
+	margin: 0 5px 0 0;	
+	}
+	.NavBar li:nth-child(n+4) {
+		padding: 0; 
+		margin: 0;
+	}
+
+}

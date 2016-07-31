@@ -5,17 +5,17 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<!--personalized 16x16px icon, unique to each site -->
 	<title>Google Replica Site</title>
-	<!--Title atop window or tab(s) -->
-	<link rel="stylesheet" href="css/main.css">
-	<!--link to external styling sheet -->
-	<script src="https://use.fontawesome.com/aa0c9c7e13.js"></script>
-	<!--what is this for?-->
+		<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<ul class="NavBar">
 	<!--navigation bar-->
 	<!--unordered list. <li> is used for each item on a list-->
-		<li>+Daniel</li>
+		<li class="plus">+Daniel</li>
 		<li> Mail</li>
 		<li>Images</li>
 		<li> <div class="fa fa-th"></div>  </li>
@@ -28,9 +28,9 @@
     	<img src="img/google.png">
       	<input type="text" placeholder="Search Google or type a URL">
       	<div class="searchButtons">
-        	<button>Google Search</button>
+        	<button class="searchbutton">Google Search</button>
         	<!--creates a clickable button, not sure what the difference between button types are-->
-        	<button>I'm Feeling Lucky</button>
+        	<button class="lucky">I'm Feeling Lucky</button>
       	</div>
     </div>
 	<div class="bottomNav">
@@ -43,7 +43,7 @@
       	<!--Right align links -->
       	<ul class="rightNav">
         	<li> <a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a> </li>
-        	<li> <a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a> </li>
+        	<li class="navCenter"> <a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a> </li>
         	<li> <a href="https://www.google.com/preferences?hl=en">Settings</a> </li>
       	</ul>
     </div>
